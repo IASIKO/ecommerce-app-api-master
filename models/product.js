@@ -5,7 +5,7 @@ export const productSchema = new mongoose.Schema({
   description: { type: String, required: true },
   image: { type: String },
   category: { type: String, required: true },
-  brand: { type: String, required: false },
+  // brand: { type: String, required: false },
   price: { type: Number, required: true },
   releaseDate: { type: Date },
   specification: [{ name: String, value: String }],
